@@ -1,5 +1,5 @@
-import styled from 'styled-components'
-import Icons from '../Icons'
+import styled from "styled-components"
+import Icons from "../Icons"
 
 export const GitHubIcon = styled(Icons.Github)`
   color: white;

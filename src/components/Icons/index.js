@@ -1,6 +1,6 @@
-import { Email, LocationOn } from '@styled-icons/material';
-import { Phone } from '@styled-icons/boxicons-solid/Phone';
-import { FacebookSquare, Github, Codepen } from '@styled-icons/boxicons-logos';
+import { Email, LocationOn } from "@styled-icons/material";
+import { Phone } from "@styled-icons/boxicons-solid/Phone";
+import { FacebookSquare, Github, Codepen } from "@styled-icons/boxicons-logos";
 
 const Icons = {
   Email,

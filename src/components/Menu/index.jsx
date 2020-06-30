@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby"
-import { useStaticQuery, graphql } from 'gatsby'
-import Img from 'gatsby-image'
+import { useStaticQuery, graphql } from "gatsby"
+import Img from "gatsby-image"
 
 const Menu = () =>  {
   const { logo } = useStaticQuery(graphql`

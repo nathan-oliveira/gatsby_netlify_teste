@@ -1,8 +1,8 @@
 import React from "react"
 import PropTypes from "prop-types"
 import Menu from "../Menu"
-import Footer from '../Footer/index'
-import GlobalStyles from '../../styles/globalStyled'
+import Footer from "../Footer/index"
+import GlobalStyles from "../../styles/globalStyled"
 
 import "./layout.scss"
 

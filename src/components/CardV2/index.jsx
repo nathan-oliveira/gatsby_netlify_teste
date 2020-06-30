@@ -1,6 +1,6 @@
-import React from 'react'
-import * as Styled from './style'
-import Images from '../Images'
+import React from "react"
+import * as Styled from "./style"
+import Images from "../Images"
 
 const CardV2 = (props) => {
   return(

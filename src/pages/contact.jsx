@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/Layout";
 import SEO from "../components/seo"
 
-import * as Styled from '../styles/pages/contactStyles'
+import * as Styled from "../styles/pages/contactStyles"
 
 const Contact = () => {
   const text = "Texto Contact"
@@ -17,7 +17,8 @@ const Contact = () => {
             <p>{text}</p>
           </div>
           <div className="col-md-6">
-          <form>
+          <form name="contact" method="POST" data-netlify="true">
+            <input type="hidden" name="form-name" value="contact" />
             <div className="form-group">
               <input type="text" className="form-control" id="name" placeholder="name"/>
             </div>

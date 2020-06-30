@@ -20,13 +20,13 @@ const Contact = () => {
           <form name="contact" method="POST" data-netlify="true">
             <input type="hidden" name="form-name" value="contact" />
             <div className="form-group">
-              <input type="text" className="form-control" id="name" placeholder="name"/>
+              <input type="text" name="name" className="form-control" id="name" placeholder="name"/>
             </div>
             <div className="form-group">
-              <input type="email" className="form-control" id="email" placeholder="E-mail"/>
+              <input type="email" name="email" className="form-control" id="email" placeholder="E-mail"/>
             </div>
             <div className="form-group">
-              <textarea className="form-control" id="textarea" rows="3" placeholder="text"></textarea>
+              <textarea className="form-control" id="message" name="message" rows="3" placeholder="text"></textarea>
             </div>
             <button type="submit" className="btn btn-success">Send</button>
           </form>
